@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	k8s "github.com/micro/examples/kubernetes/go/micro"
 	"github.com/micro/go-micro"
-	k8s "github.com/micro/kubernetes/go/micro"
 	pb "github.com/wizofgoz/shippy-vessel-service/proto/vessel"
 	"log"
 	"os"
